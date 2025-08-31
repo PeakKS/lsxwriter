@@ -1,0 +1,11 @@
+[package]
+name = "lsxwriter"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.46", features = ["derive"] }
+kiss_xml = "1.0.2"
+lz4_flex = "0.11.5"
+mmap-io = "0.9.4"
+topologic = "1.1.0"
